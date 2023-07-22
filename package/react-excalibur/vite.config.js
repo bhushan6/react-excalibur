@@ -13,12 +13,12 @@ export default defineConfig({
       fileName: (format) => `react-excalibur.${format}.js`,
     },
     rollupOptions: {
-      external: ["react", "react-dom", "excalibur"],
+      external: ["react", "react-dom", "zdog"],
       output: {
         globals: {
           react: "React",
           "react-dom": "ReactDOM",
-          excalibur: "excalibur",
+          excalibur: "ex",
         },
       },
     },
