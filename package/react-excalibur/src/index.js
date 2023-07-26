@@ -1,8 +1,5 @@
-import { Test } from "./Test";
-const hello = () => {
-  console.log(
-    "HEYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
-  );
-};
-
-export { hello, Test };
+export * from "./Canvas";
+export * from "./utils";
+export * from "./hooks";
+export * from "./reconciler";
+export * from "./renderer";
